@@ -1,9 +1,7 @@
-/* Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Base */
 html {
   scroll-behavior: smooth;
 }
@@ -102,4 +100,8 @@ font-variation-settings: "FILL", 0 "wght" 400, "GRAD" 0,
 
 .section{
   @apply pt-20 lg:pt-32
+}
+
+.title-1 {
+  @apply text-[22px] font-normal
 }
