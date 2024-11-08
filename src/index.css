@@ -117,3 +117,7 @@ font-variation-settings: "FILL", 0 "wght" 400, "GRAD" 0,
 .text-field::placeholder{
   @apply text-zinc-400
 }
+
+.reveal-up{
+  @apply translate-y-20 opacity-0
+}

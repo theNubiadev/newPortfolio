@@ -23,7 +23,7 @@ function SkillCard({ label, desc, classes }) {
 SkillCard.propTypes = {
   label: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,
-  classes: PropTypes.string.isRequiredr,
+  classes: PropTypes.string.isRequired,
 };
 
 export default SkillCard;

@@ -1,51 +1,52 @@
 import ProjectCard from "./ProjectCard";
-
+import estore from '../assets/estore.png'
+import wcu from '../assets/wcu.png'
 const works = [
   {
-    imgSrc: "",
+    img: {estore},
     title: "1759 Estore",
     tags: ["API", "Development"],
     projectLink: "https://www.google.com",
-    classes: "", // Add classes as needed
+    classes: "", 
   },
   {
-    imgSrc: "",
+    img: {wcu},
     title: "WCU Campus",
     tags: ["API", "Development"],
     projectLink: "https://www.google.com",
-    classes: "", // Add classes as needed
+    classes: "", 
   },
   {
-    imgSrc: "",
+    img: "",
     title: "Farm Management",
     tags: ["API", "Development"],
     projectLink: "https://www.google.com",
-    classes: "", // Add classes as needed
+    classes: "", 
   },
   {
-    imgSrc: "",
+    img: "",
     title: "Ticketbritte",
     tags: ["API", "Development"],
     projectLink: "https://www.google.com",
-    classes: "", // Add classes as needed
+    classes: "", 
   },
 ];
 
 function Work() {
   return (
-    <div className="section" id="work">
+    <div className="section" id="projects">
       <div className="container">
         <h2 className="headline-2 mb-8">My Portfolio Highlights</h2>
 
         <div className=" grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-          {works.map(({ imgSrc, title, tags, projectLink, classes }, key) => (
+          {works.map(({ img, title, tags, projectLink,  }, key) => (
             <ProjectCard
               key={key}
-              imgSrc={imgSrc}
+              img={img}
               title={title}
               tags={tags}
               projectLink={projectLink}
-              classes={classes}
+              classes="reveal-up"
             />
           ))}
         </div>

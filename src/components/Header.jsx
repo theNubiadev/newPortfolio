@@ -56,7 +56,8 @@ function Header() {
           >
             <span className="icons">
             {navOpen ? <Cancel01Icon /> : <Menu01Icon />}
-            </span> </button>
+            </span> 
+            </button>
           <Navbar navOpen={navOpen} />
         </div>
 
