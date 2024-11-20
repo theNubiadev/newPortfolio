@@ -10,7 +10,7 @@ body {
 }
 
 .menu-btn {
-  @apply w-10 h-10 grid place-items-center
+  @apply  grid place-items-center
   bg-zinc-50/10 rounded-xl ring-inset ring-1
    ring-zinc-50/[0.02] backdrop-blur-2xl
     hover:bg-zinc-50/15 transition-transform 
@@ -21,15 +21,13 @@ body {
   @apply absolute top-full mt-2 right-0 min-w-40 p-2
    bg-zinc-50/10 rounded-2xl ring-inset ring-1
     ring-zinc-50/5 blur-sm isolate scale-90 opacity-0 invisible 
-    transition-all md:static md:flex md:items-center 
+    transition-all md:static.a md:flex md:items-center 
     md:mt-0 md:opacity-100 md:blur-0 md:visible 
     md:scale-100 backdrop-blur-2xl 
 }
-
 .navbar.active {
   @apply opacity-100 scale-100 blur-0 visible;
 }
-
 .nav-link {
   @apply grid items-center h-9 px-4 text-sm 
   font-medium tracking-wide text-zinc-50/50
@@ -38,12 +36,10 @@ body {
 .nav-link.active {
   @apply text-zinc-900 duration-500 
 }
-
-.navbar .active-box {
+.navbar.active-box {
   @apply absolute bg-zinc-50 rounded-lg -z-10
     transition-all  duration-500 ease-in-out;
 }
-
 .btn {
   @apply max-w-max h-9 flex items-center gap-2 
   rounded-xl px-4 font-medium text-sm ring-1 ring-zinc-50/5

@@ -5,14 +5,14 @@ const works = [
   {
     img: {estore},
     title: "1759 Estore",
-    tags: ["API", "Development"],
+    tags: ["API", "Development", "Ecommerce"],
     projectLink: "https://www.google.com",
     classes: "", 
   },
   {
     img: {wcu},
     title: "WCU Campus",
-    tags: ["API", "Development"],
+    tags: ["API", "Development", "Academics"],
     projectLink: "https://www.google.com",
     classes: "", 
   },
@@ -26,7 +26,7 @@ const works = [
   {
     img: "",
     title: "Ticketbritte",
-    tags: ["API", "Development"],
+    tags: ["API", "Development", "Sales", "Technology", "Events"],
     projectLink: "https://www.google.com",
     classes: "", 
   },
