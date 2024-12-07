@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-function SkillCard({ label, desc, classes }) {
+function SkillCard({ label, desc, classes , imgSrc}) {
   return (
     <div
       className={
@@ -9,7 +9,7 @@ function SkillCard({ label, desc, classes }) {
       }
     >
       <figure className="bg-zinc-700/50 rounded-lg overflow-hidden w-12 h-12 p-2 group-hover:bg-zinc-900">
-        <img src="" alt="" width={32} height={32} />
+        <img src={imgSrc} alt="" width={32} height={32} />
       </figure>
 
       <div>
@@ -23,7 +23,8 @@ function SkillCard({ label, desc, classes }) {
 SkillCard.propTypes = {
   label: PropTypes.string.isRequired,
   desc: PropTypes.string.isRequired,
-  classes: PropTypes.string.isRequired,
+  classes: PropTypes.string,
+  imgSrc: PropTypes.string,
 };
 
 export default SkillCard;

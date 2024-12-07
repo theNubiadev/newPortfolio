@@ -19,7 +19,7 @@ function Navbar({ navOpen }) {
   useEffect(() => {
     initActiveBox();
     window.addEventListener("resize", initActiveBox);
-    return () => window.removeEventListener("resize", initActiveBox); // cleanup
+    return () => window.removeEventListener("resize", initActiveBox); 
   }, []);
 
   const activeCurrentLink = (event) => {
@@ -38,8 +38,9 @@ function Navbar({ navOpen }) {
     { label: "Home", link: "#home", className: "nav-link active", ref: lastActiveLink,},
     { label: "About", link: "#about", className: "nav-link" },
     { label: "Projects", link: "#projects", className: "nav-link" },
-    { label: "Contact", link: "#contact", className: "nav-link md:hidden" },
     { label: "Review", link: "#review", className: "nav-link " },
+    { label: "Contact", link: "#contact", className: "nav-link md:hidden" },
+
   ];
 
   return (

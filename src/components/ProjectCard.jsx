@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
 import { ArrowHorizontalIcon } from "hugeicons-react";
-
 function ProjectCard({ imgSrc, title, tags, projectLink, classes }) {
   return (
     <div
@@ -9,7 +8,7 @@ function ProjectCard({ imgSrc, title, tags, projectLink, classes }) {
         classes
       }
     >
-      <figure className="img-box aspect-square rounded-lg">
+      <figure className="img-box  rounded-lg">
         <img src={imgSrc} className="img-cover" alt={title} loading="lazy" />
       </figure>
 
@@ -39,11 +38,11 @@ function ProjectCard({ imgSrc, title, tags, projectLink, classes }) {
 }
 
 ProjectCard.propTypes = {
-  imgSrc: PropTypes.string.isRequired,
+  imgSrc: PropTypes.string,
   title: PropTypes.string.isRequired,
   projectLink: PropTypes.string.isRequired,
   tags: PropTypes.array.isRequired,
-  classes: PropTypes.string,
+  classes: PropTypes.string.isRequired,
 };
 
 export default ProjectCard;

@@ -1,3 +1,4 @@
+import React  from "react";
 import {
   InstagramIcon,
   XingIcon,
@@ -22,6 +23,35 @@ const socialLinks = [
   },
 ];
 function Contact() {
+
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "5fe1981f-252d-4243-b651-e24364f6d814");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+    const data = await response.json();
+    if (data.success) {
+      setResult("");
+      alert("susess")
+      // toast.success("Form Submitted Successfully")
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      // toast.error(data.message)
+      alert(data.message)
+      setResult("")
+      //   setResult(data.message);
+    }
+  };
+
   return (
     <div className="section" id="contact">
       <div className="container lg:grid lg:grid-cols-2 lg:items-stretch">
@@ -45,7 +75,7 @@ function Contact() {
         </div>
 
         <fieldset>
-          <form action="" method="post">
+          <form action="" onSubmit={onSubmit} method="post">
             <div className="md:grid md:items-center md:grid-cols-2 md:gap-2">
               <div className="mb-4 ">
                 <label htmlFor="name" className="label reveal-up">
@@ -92,9 +122,10 @@ function Contact() {
               </div>
 
               <button type="submit" className="btn btn-primary [&]:max-w-full reveal-up w-full justify-center" >
-                Submit{" "}
+                {result ? result : "Send Message"}
               </button>
             </div>
+            
           </form>
         </fieldset>
       </div>

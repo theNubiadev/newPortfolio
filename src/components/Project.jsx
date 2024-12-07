@@ -1,48 +1,51 @@
 import ProjectCard from "./ProjectCard";
-import estore from '../assets/estore.png'
-import wcu from '../assets/wcu.png'
-const works = [
+import hamverse from '../assets/hamverse.jpg'
+import laidi from '../assets/laidi.jpg'
+import estore from '../assets/1759e.jpg';
+import wcu from '../assets/wcu.jpg'
+import revhomes from '../assets/revhomes.jpg'
+const projects = [
   {
-    img: {estore},
+    imgSrc: estore,  
     title: "1759 Estore",
-    tags: ["API", "Development", "Ecommerce"],
-    projectLink: "https://www.google.com",
-    classes: "", 
+    tags: ["Tailwind", "Responsiveness", "API", "Development", "Ecommerce", "Express"],
+    projectLink: "https://1759estore.vercel.app",
+    classes: "",
   },
   {
-    img: {wcu},
+    imgSrc: wcu,
     title: "WCU Campus",
     tags: ["API", "Development", "Academics"],
-    projectLink: "https://www.google.com",
-    classes: "", 
+    projectLink: "https://wcu.vercel.app",
+    classes: "",
   },
   {
-    img: "",
-    title: "Farm Management",
-    tags: ["API", "Development"],
-    projectLink: "https://www.google.com",
-    classes: "", 
+    imgSrc: hamverse,
+    title: "Hamverse Movie site",
+    tags: ["TMDB-API", "Responsive", "React", "Tailwind", "Fun"],
+    projectLink: "https://",
+    classes: "",
   },
   {
-    img: "",
-    title: "Ticketbritte",
-    tags: ["API", "Development", "Sales", "Technology", "Events"],
+    imgSrc: revhomes,
+    title: "revHomes",
+    tags: [ " React", "Tailwind", "Animations","Property", "Development", "Sales", "Technology", "Solutions"],
     projectLink: "https://www.google.com",
-    classes: "", 
+    classes: "",
   },
 ];
 
-function Work() {
+function Project() {
   return (
     <div className="section" id="projects">
       <div className="container">
         <h2 className="headline-2 mb-8">My Portfolio Highlights</h2>
 
-        <div className=" grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(280px,_1fr))]">
-          {works.map(({ img, title, tags, projectLink,  }, key) => (
+        <div className=" grid gap-x-4 gap-y-5 grid-cols-[repeat(auto-fill,_minmax(320px,_1fr))]">
+          {projects.map(({ imgSrc, title, tags, projectLink }, key) => (
             <ProjectCard
               key={key}
-              img={img}
+              imgSrc={imgSrc}
               title={title}
               tags={tags}
               projectLink={projectLink}
@@ -55,4 +58,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default Project;

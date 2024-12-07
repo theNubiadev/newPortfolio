@@ -1,53 +1,8 @@
-import { ArrowDown05Icon } from "hugeicons-react";
+import { ArrowDown05Icon, GithubIcon, Facebook01Icon, InstagramIcon, TwitterIcon, Linkedin01Icon, } from "hugeicons-react";
 import { ButtonPrimary } from "./Button";
 
-const sitemap = [
-  {
-    label: "Home",
-    href: "#home",
-  },
-  {
-    label: "About",
-    href: "#about",
-  },
-  {
-    label: "Work",
-    href: "#work",
-  },
-  {
-    label: "Reviews",
-    href: "#reviews",
-  },
-  {
-    label: "Contact",
-    href: "#contact",
-  },
-];
-
-const socials = [
-  {
-    label: "Github",
-    href: "",
-  },
-  {
-    label: "Instagram",
-    href: "",
-  },
-  {
-    label: "Facebook",
-    href: "",
-  },
-  {
-    label: "X",
-    href: "",
-  },
-  {
-    label: "LinkedIn",
-    href: "",
-  },
-];
-
 function Footer() {
+
   return (
     <div className="section">
       <div className="container">
@@ -62,50 +17,51 @@ function Footer() {
               classes="reveal-up"
             />
           </div>
-
           <div className="grid grid-cols-2 gap-4 lg:pl-20">
+            <div>
+              <p className="mb-2 reveal-up text-xl ">Quick Links</p>
 
-            <div className="">
-              <p className="mb-2 reveal-up" > Sitemap</p>
               <ul>
-                {sitemap.map(({ label, href }, key) => {
-                  <li key={key}>
-                    <a 
-                       href={href} 
-                       className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200">
-                      {label}
-                    </a>
-                  </li>
-                })}
+                <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
+                  <a href=""> Home </a> </li>
+                <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
+                  <a href=""> About </a> </li>
+                <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
+                  <a href=""> Projects </a> </li>
+                <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
+                  <a href=""> Review </a> </li>
+                <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
+                  <a href=""> Contact </a> </li>
               </ul>
             </div>
 
+            <div>
+              <p className="mb-2 reveal-up text-xl ">Social Links</p>
 
-            <div className="mb-2 reveal-up">
-              <p>Socials</p>
               <ul>
-                {socials.map(({ label, href }, key) => {
-                  <li key={key}>
-                    <a 
-                       href={href} 
-                       target="_blank"
-                       className="block text-sm text-zinc-400 py-1 transition-colors hover:text-zinc-200">
-                      {label}
-                    </a>
-                  </li>
-                })}
+                <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
+                  <a href="https://github.com/Ajaiyeoba.com" target='_blank'> <GithubIcon /> </a> </li>
+                <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
+                  <a href="https://x.com/TheNubiaDev.com" target='_blank'> <TwitterIcon /> </a> </li>
+                <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
+                  <a href="https://" target='_blank'>  <InstagramIcon /> </a> </li>
+                <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
+                  <a href="https://" target='_blank'>  <Facebook01Icon /> </a> </li>
+                <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
+                  <a href="https://" target='_blank'> <Linkedin01Icon /> </a> </li>
               </ul>
             </div>
+
           </div>
         </div>
         <div className="flex items-center justify-between pt-10 mb-8 ">
-            <a href="" className="reveal-up logo">
-                <h2>John Ajibola</h2>
-            </a>
+          <a href="" className="reveal-up logo">
+            <h2>John Ajibola</h2>
+          </a>
 
-            <p href="" className="text-zinc-500  reveal-uptext-sm">&copy; 2024 
-                <span className="text-zinc-200">NubiaCode</span>
-            </p>
+          <p href="" className="text-zinc-500  reveal-uptext-sm">&copy; 2024
+            <span className="text-zinc-200">NubiaCode</span>
+          </p>
         </div>
       </div>
     </div>

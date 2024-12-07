@@ -11,12 +11,11 @@ body {
 
 .menu-btn {
   @apply grid place-items-center
-  bg-zinc-50/10 rounded-xl ring-inset ring-1
+   rounded-xl ring-inset ring-1
    ring-zinc-50/[0.02] backdrop-blur-2xl
-    hover:bg-zinc-50/15 transition-transform 
+   transition-transform 
     active:scale-95;
 }
-
 .navbar {
   @apply absolute top-full mt-2 right-0 min-w-40 p-2
    bg-zinc-50/10 rounded-2xl ring-inset ring-1
@@ -50,8 +49,8 @@ body {
 }
 
 .icons {
-  @apply w-[1em] h-[1em] overflow-hidden;
-  font-variation-settings: "FILL", 0 "wght" 400, "GRAD" 0, "opsz" 24;
+  @apply w-[2em] h-[2em] overflow-hidden;
+  /* font-variation-settings: "FILL", 0 "wght" 400, "GRAD" 0, "opsz" 24; */
 }
 
 .container {
@@ -70,6 +69,7 @@ body {
 .headline-1 .headline-2 {
   @apply max-w-max;
   background: -webkit-linear-gradient(0deg, #fafafa, #a1a1aa);
+  background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
