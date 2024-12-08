@@ -3,7 +3,7 @@ import hamverse from '../assets/hamverse.jpg'
 import laidi from '../assets/laidi.jpg'
 import estore from '../assets/1759e.jpg';
 import wcu from '../assets/wcu.jpg'
-import revhomes from '../assets/revhomes.jpg'
+import revhomes from '../assets/revHomes.jpg'
 const projects = [
   {
     imgSrc: estore,  
