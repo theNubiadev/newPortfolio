@@ -1,6 +1,6 @@
 import { ArrowDown02Icon, Car01Icon } from "hugeicons-react";
 import { ButtonPrimary, ButtonOutline } from "./Button";
-import her from "../assets/estore.png";
+
 function Hero() {
   return (
     <section id="home" className=" pt-28 lg:pt-36">
@@ -26,7 +26,7 @@ function Hero() {
           </div>
 
           <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
-            Building Scalable, Modern Website Solutions for the Future{" "}
+          Bringing Ideas to Life with Code{" "}
           </h2>
           
           <div className=" flex items-center gap-3">

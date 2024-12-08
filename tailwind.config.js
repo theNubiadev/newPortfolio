@@ -8,7 +8,9 @@ export default {
   ],
   theme: {
     extend: {
-      fontFamily : ['Inter', 'sans-serif']
+      fontFamily : {
+        'inter' : ['Inter', 'sans-serif'],
+      }
     },
   },
   plugins: [tailwindScrollbar],
