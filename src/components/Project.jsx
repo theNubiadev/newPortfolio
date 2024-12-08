@@ -9,14 +9,14 @@ const projects = [
     imgSrc: estore,  
     title: "1759 Estore",
     tags: ["Tailwind", "Responsiveness", "API", "Development", "Ecommerce", "Express"],
-    projectLink: "https://1759estore.vercel.app",
+    projectLink: "https://1759store.vercel.app/",
     classes: "",
   },
   {
     imgSrc: wcu,
     title: "WCU Campus",
     tags: ["API", "Development", "Academics"],
-    projectLink: "https://wcu.vercel.app",
+    projectLink: "https://wcu-project.vercel.app/",
     classes: "",
   },
   {
