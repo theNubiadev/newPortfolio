@@ -10,7 +10,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
-import Review from "./components/Review";
+// import Review from "./components/Review";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
@@ -42,7 +42,7 @@ function App() {
         <About />
         <Skill />
         <Project />
-        <Review />
+        {/* <Review /> */}
         <Contact />
       </main>
       <Footer />
