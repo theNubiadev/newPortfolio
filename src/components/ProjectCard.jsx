@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import { ArrowHorizontalIcon } from "hugeicons-react";
+import {  PlayIcon } from "hugeicons-react";
 function ProjectCard({ imgSrc, title, tags, projectLink, classes }) {
   return (
     <div
@@ -28,7 +28,7 @@ function ProjectCard({ imgSrc, title, tags, projectLink, classes }) {
         </div>
 
         <div className="w-11 h-11 rounded-lg grid place-items-center bg-sky-400 text-zinc-950 shrink-0">
-          <ArrowHorizontalIcon className="icons" aria-hidden="true" />
+          <PlayIcon className="icons" aria-hidden="true" />
         </div>
       </div>
 

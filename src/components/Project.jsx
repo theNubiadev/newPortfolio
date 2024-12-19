@@ -45,7 +45,7 @@ function Project() {
             <ProjectCard
               key={key}
               imgSrc={imgSrc}
-              title={title}
+              title={title} 
               tags={tags}
               projectLink={projectLink}
               classes="reveal-up"
