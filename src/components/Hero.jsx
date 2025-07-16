@@ -1,12 +1,12 @@
 // import { ArrowDown02Icon , Download01Icon} from "hugeicons-react";
 // import { ButtonPrimary, ButtonOutline } from "./Button";
-// import Him from "../assets/Mayowa.png";
+import Him from "../assets/Him.png";
 
 function Hero() {
   return (
     <section id="home" className="pt-28 lg:pt-36">
       <div className="container lg:grid lg:grid-cols-2 items-center lg:gap-10">
-        
+
         {/* TEXT COMES FIRST */}
         <div>
           <div className="flex items-center gap-3">
@@ -36,12 +36,12 @@ function Hero() {
 
         {/* IMAGE COMES SECOND */}
         <div className="hidden lg:block">
-          {/* <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
-            <img src={Him} alt="Ajaiyeoba John" width={656} height={800} />
-          </figure> */}
-          {/* <img src={Him} alt="Ajaiyeoba John" width={656} height={800} loading="lazy"/> */}
+          <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
+            <img src={Him} alt="Ajaiyeoba John" width={656} height={600} loading="lazy" />
+          </figure>
+
         </div>
-        
+
       </div>
     </section>
   );

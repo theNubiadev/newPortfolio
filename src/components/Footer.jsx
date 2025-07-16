@@ -56,10 +56,10 @@ function Footer() {
         </div>
         <div className="flex items-center justify-between pt-10 mb-8 ">
           <a href="" className="reveal-up logo">
-            <h2>John Ajibola</h2>
+            <h2>Ajaiyeoba John </h2>
           </a>
 
-          <p href="" className="text-zinc-500  reveal-uptext-sm">&copy; 2024
+          <p href="" className="text-zinc-500  reveal-uptext-sm">&copy; 2025
             <span className="text-zinc-200">NubiaCode</span>
           </p>
         </div>
