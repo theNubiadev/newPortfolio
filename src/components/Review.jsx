@@ -19,27 +19,6 @@ const reviews = [
     imgSrc: "",
     company: "Trevida",
   },
-  // {
-  //   content:
-  //     "Exceptional Web development? Delivered a seamless, responsive site with clean code and great UX",
-  //   nameTag: "Sallie Njuku",
-  //   imgSrc: "",
-  //   company: "Chaos",
-  // },
-  // {
-  //   content:
-  //     "Exceptional Web development? Delivered a seamless, responsive site with clean code and great UX",
-  //   nameTag: "Sallie Njuku",
-  //   imgSrc: "",
-  //   company: "Chaos",
-  // },
-  // {
-  //   content:
-  //     "Exceptional Web development? Delivered a seamless, responsive site with clean code and great UX",
-  //   nameTag: "Sallie Njuku",
-  //   imgSrc: "",
-  //   company: "Chaos",
-  // },
 ];
 
 function Review() {
