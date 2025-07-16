@@ -5,8 +5,11 @@
 
 html {
   scroll-behavior: smooth;
+
 }
 body {
+  font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
   @apply bg-zinc-900 text-zinc-50  font-inter;
 }
 

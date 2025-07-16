@@ -11,7 +11,7 @@ import { StarFaceIcon } from "hugeicons-react";
 function ReviewCard({
     content,
     nameTag,
-    imgSrc,
+    // imgSrc,
     company
 }) {
   return (
@@ -32,7 +32,7 @@ function ReviewCard({
              <div className="flex items-center gap-2 mt-auto">
                 <figure className="img-box rounded-lg">
                     <img 
-                    src={imgSrc} 
+                    // src={imgSrc} 
                     width={44}
                     height={44}
                     className="img-cover" 
@@ -52,7 +52,7 @@ function ReviewCard({
 ReviewCard.propTypes = {
     content: PropTypes.string.isRequired,
     nameTag: PropTypes.string.isRequired,
-    imgSrc: PropTypes.string.isRequired,
+    // imgSrc: PropTypes.string.isRequired,
     company: PropTypes.string.isRequired
 }
 

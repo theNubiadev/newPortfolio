@@ -9,14 +9,14 @@ const reviews = [
     content:
       "Exceptional Web development? Delivered a seamless, responsive site with clean code and great UX",
     nameTag: "Mayowa Ojo",
-    imgSrc: "",
-    company: "",
+    // imgSrc: "",
+    company: "Matofield",
   },
   {
     content:
       "Working with John  has been the best choice i made.",
     nameTag: "Nwaorgu Uchenna",
-    imgSrc: "",
+    // imgSrc: "",
     company: "Trevida",
   },
 ];
@@ -40,13 +40,13 @@ function Review() {
 
       <h2 className="headline-2 mb-8  reveal-up">What my Clients say</h2>
       <div className=" scrub-slide flex items-stretch gap-3 w-fit ">
-        {reviews.map(({ content, nameTag, imgSrc, company }, key) => (
+        {reviews.map(({ content, nameTag,  company }, key) => (
           <ReviewCard 
           key={key}
           nameTag={nameTag}
           company={company}
           content={content}
-          imgSrc={imgSrc}
+          // imgSrc={imgSrc}
           />
         ))}
       </div>
