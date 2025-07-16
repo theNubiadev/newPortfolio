@@ -12,7 +12,7 @@ function About() {
         <h2 className="headline-2 reveal-up">About Me</h2>
         <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12  reveal-up">
           <p className=" text-zinc-300 mb-4 md:mb-8 md:text-xl md:max-w-[60ch]">
-            I am a passionate frontend developer with 2+ years of experience creating sleek and responsive user interfaces. Skilled in HTML, CSS, JavaScript, React, PHP, MySQL, and Tailwind,  I focus on building engaging and intuitive digital experiences.
+            I am a passionate full stack developer with 2+ years of experience creating sleek and responsive user interfaces. Skilled in HTML, CSS, JavaScript, React, PHP, MySQL, and Tailwind, I focus on building engaging and intuitive digital experiences.
             <br />
             I am committed to continuous learning and growth in the tech space. Whether it’s building from scratch or enhancing existing systems, I thrive on solving challenges that make technology accessible and impactful.
           </p>
