@@ -1,8 +1,10 @@
 import ProjectCard from "./ProjectCard";
-import hamverse from '../assets/hamverse.jpg'
+// import hamverse from '../assets/hamverse.jpg'
 import estore from '../assets/1759e.jpg';
-import wcu from '../assets/wcu.jpg'
-import revhomes from '../assets/revHomes.jpg'
+import wcu from '../assets/wcu.jpg';
+// import revhomes from '../assets/revHomes.jpg';
+import finFlow from "../assets/FinFlow.png";
+import mayowa from "../assets/Mayowa.png";
 const projects = [
   {
     imgSrc: estore,  
@@ -18,18 +20,32 @@ const projects = [
     projectLink: "https://wcu-project.vercel.app/",
     classes: "",
   },
+  // {
+  //   imgSrc: hamverse,
+  //   title: "Hamverse Movie site",
+  //   tags: ["TMDB-API", "Responsive", "React", "Tailwind", "Fun"],
+  //   projectLink: "https://",
+  //   classes: "",
+  // },
+  // {
+  //   imgSrc: revhomes,
+  //   title: "revHomes",
+  //   tags: [ " React", "Tailwind", "Animations","Property", "Development", "Sales", "Technology", "Solutions"],
+  //   projectLink: "https://www.google.com",
+  //   classes: "",
+  // },
   {
-    imgSrc: hamverse,
-    title: "Hamverse Movie site",
-    tags: ["TMDB-API", "Responsive", "React", "Tailwind", "Fun"],
-    projectLink: "https://",
+    imgSrc: finFlow,
+    title: "Finflow Bank Aggregator Website",
+    tags: [ " React", "Tailwind","Development", "Technology", "Open Banking Solutions"],
+    projectLink: "https://finflow.samayo.com.ng",
     classes: "",
   },
   {
-    imgSrc: revhomes,
-    title: "revHomes",
-    tags: [ " React", "Tailwind", "Animations","Property", "Development", "Sales", "Technology", "Solutions"],
-    projectLink: "https://www.google.com",
+    imgSrc: mayowa,
+    title: "Mayowa Ojo Website",
+    tags: [ " React", "Tailwind", "Animations", "Development", "Professional", ],
+    projectLink: "https://www.mayowaojo.com",
     classes: "",
   },
 ];
