@@ -1,18 +1,17 @@
 import PropTypes from "prop-types";
-
 function ButtonPrimary({
   href,
-  target = "_self", // Corrected target default to match HTML spec
+  target = "_self", 
   label,
   icon,
-  classes = "" // Default value to avoid undefined in concatenation
+  classes = "" 
 }) {
   if (href) {
     return (
       <a
         href={href}
         target={target}
-        className={"btn btn-primary " + classes} // Added space before classes
+        className={"btn btn-primary " + classes} 
       >
         {label}
         {icon ? (
@@ -30,15 +29,13 @@ function ButtonPrimary({
     );
   }
 }
-
 ButtonPrimary.propTypes = {
   label: PropTypes.string.isRequired,
   href: PropTypes.string,
   target: PropTypes.string,
-  icon: PropTypes.node, // Changed to node, to allow React components as icons
+  icon: PropTypes.node, 
   classes: PropTypes.string
 };
-
 function ButtonOutline({
   href,
   target = "_self",
@@ -51,7 +48,7 @@ function ButtonOutline({
       <a
         href={href}
         target={target}
-        className={"btn btn-outline " + classes} // Added space before classes
+        className={"btn btn-outline " + classes} 
       >
         {label}
         {icon ? (
@@ -69,13 +66,11 @@ function ButtonOutline({
     );
   }
 }
-
 ButtonOutline.propTypes = {
   label: PropTypes.string.isRequired,
   href: PropTypes.string,
   target: PropTypes.string,
-  icon: PropTypes.node, // Changed to node, to allow React components as icons
+  icon: PropTypes.node, 
   classes: PropTypes.string
 };
-
 export { ButtonPrimary, ButtonOutline };

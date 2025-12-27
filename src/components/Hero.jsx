@@ -7,7 +7,7 @@ function Hero() {
     <section id="home" className="pt-28 lg:pt-36">
       <div className="container lg:grid lg:grid-cols-2 items-center lg:gap-10">
 
-        {/* TEXT COMES FIRST */}
+        {/* TEXT */}
         <div>
           <div className="flex items-center gap-3">
             <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
@@ -23,7 +23,7 @@ function Hero() {
             Bringing Ideas to Life with Code
           </h2>
 
-          <div className="flex items-center gap-3">
+          {/* <div className="flex items-center gap-3"> */}
             {/* <ButtonPrimary label="Download CV" icon={<Icon name="download" />} /> */}
             {/* <ButtonPrimary label="Download CV" icon={<Download01Icon />} />
             <ButtonOutline
@@ -31,17 +31,15 @@ function Hero() {
               label="Scroll down"
               icon={<ArrowDown02Icon />}
             /> */}
-          </div>
+          {/* </div> */}
         </div>
 
-        {/* IMAGE COMES SECOND */}
+        {/* IMAGE */}
         <div className="hidden lg:block">
           <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
             <img src={Him} alt="Ajaiyeoba John" width={656} height={600} loading="lazy" />
           </figure>
-
         </div>
-
       </div>
     </section>
   );

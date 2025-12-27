@@ -27,13 +27,6 @@ const projects = [
     projectLink: "https://akountinprofessionals.co.uk",
     classes: "",
   },
-  // {
-  //   imgSrc: revhomes,
-  //   title: "revHomes",
-  //   tags: [ " React", "Tailwind", "Animations","Property", "Development", "Sales", "Technology", "Solutions"],
-  //   projectLink: "https://www.google.com",
-  //   classes: "",
-  // },
   {
     imgSrc: finFlow,
     title: "Finflow Bank Aggregator Website",
@@ -72,5 +65,4 @@ function Project() {
     </div>
   );
 }
-
 export default Project;
