@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard";
-// import hamverse from '../assets/hamverse.jpg'
+import hamverse from '../assets/hamverse.jpg'
 import estore from '../assets/1759e.jpg';
 import wcu from '../assets/wcu.jpg';
 // import revhomes from '../assets/revHomes.jpg';
@@ -20,13 +20,13 @@ const projects = [
     projectLink: "https://wcu-project.vercel.app/",
     classes: "",
   },
-  // {
-  //   imgSrc: hamverse,
-  //   title: "Hamverse Movie site",
-  //   tags: ["TMDB-API", "Responsive", "React", "Tailwind", "Fun"],
-  //   projectLink: "https://",
-  //   classes: "",
-  // },
+  {
+    imgSrc: hamverse,
+    title: "Akountin Professionals",
+    tags: ["Accounting", "Responsive", "React", "Tailwind", "Typescript"],
+    projectLink: "https://akountinprofessionals.co.uk",
+    classes: "",
+  },
   // {
   //   imgSrc: revhomes,
   //   title: "revHomes",

@@ -14,7 +14,9 @@ const skillItem = [
   { label: "Tailwind", desc: "Interface" , imgSrc: twcLogo},
   { label: "Nodejs", desc: "Backend" , imgSrc: nodeLogo},
   { label: "Express", desc: "Node framework", imgSrc: expressLogo },
-  { label: "Wordpress", desc: "CMS" , imgSrc: wpLogo},
+  { label: "Wordpress", desc: "CMS", imgSrc: wpLogo },
+  { label: "Typescript", desc: "CMS", imgSrc: wpLogo },
+  { label: "Nexths", desc: "CMS" , imgSrc: wpLogo},
 ];
 
 function Skill() {

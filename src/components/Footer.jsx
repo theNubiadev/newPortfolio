@@ -40,9 +40,9 @@ function Footer() {
 
               <ul>
                 <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
-                  <a href="https://github.com/Ajaiyeoba.com" target='_blank'> <GithubIcon /> </a> </li>
+                  <a href="https://github.com/thenubiadev.com" target='_blank'> <GithubIcon /> </a> </li>
                 <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
-                  <a href="https://x.com/TheNubiaDev.com" target='_blank'> <TwitterIcon /> </a> </li>
+                  <a href="https://x.com/thenubia_ryu.com" target='_blank'> <TwitterIcon /> </a> </li>
                 <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
                   <a href="https://" target='_blank'>  <InstagramIcon /> </a> </li>
                 <li className="block text-m text-zinc-500 py-1 transition-color hover:text-zinc-200" >
@@ -56,11 +56,12 @@ function Footer() {
         </div>
         <div className="flex items-center justify-between pt-10 mb-8 ">
           <a href="" className="reveal-up logo">
-            <h2>Ajaiyeoba John </h2>
+            <h2>Ajaiyeoba Ajibola </h2>
           </a>
 
-          <p href="" className="text-zinc-500  reveal-uptext-sm">&copy; 2025
-            <span className="text-zinc-200">NubiaCode</span>
+          <p href="" className="text-zinc-500  reveal-uptext-sm">&copy; 
+            {new Date().getFullYear()}
+            <span className="text-zinc-200"> Ajibola</span>
           </p>
         </div>
       </div>
